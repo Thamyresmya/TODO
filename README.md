@@ -67,6 +67,12 @@ Projeto de um Sistema de Gerenciamento de Tarefas, desenvolvido junto com o Trei
 
 - `Cadastro de Tarefas`: Permite aos usuários criar, editar e excluir tarefas. Para cadastrar uma tarefa, devem ser informados `Título`, `Data entrega`. Todos os campos são obrigatórios. O sistema também deve gravar a data em que a tarefa foi cadastrado no sistema.
 
+- `Excluir Tarefas`: 
+
+- `Editar Tarefas`: 
+
+- `Listar de Tarefas`: 
+
 
 ## Benefícios do Projeto
 
@@ -104,9 +110,6 @@ Neste repositório você tem acesso a todo o material desenvolvido.
 
 | [<img src="https://github.com/Thamyresmya.png" width=115><br><sub>Thamyres Cavalcante</sub>](https://github.com/Thamyresmya) |   |
 | :---: | :---: 
-
-
-## 📚 Mais informações do curso
 
 
 
