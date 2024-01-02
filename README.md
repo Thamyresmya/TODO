@@ -4,30 +4,22 @@
 
 # Projeto TODO
 
-<h4 align="center"> 
+<h1 align="center"> 
 🚧 Projeto em construção 🚧
-</h4>
+</h1>
 
 # Índice 
 
-- [Projeto NOME DO PROJETO](#projeto-nome-do-projeto)
-- [Índice](#índice)
   - [Descrição do projeto](#descrição-do-projeto)
-  - [Aplicação](#aplicação)
-  - [✔️ Técnicas e tecnologias utilizadas](#️-técnicas-e-tecnologias-utilizadas)
-  - [💻 Projeto](#-projeto)
-  - [Ferramentas utilizadas](#ferramentas-utilizadas)
-  - [📁 Acesso ao projeto](#-acesso-ao-projeto)
-  - [🛠️ Abrir e rodar o projeto](#️-abrir-e-rodar-o-projeto)
-  - [🔨 Funcionalidades do projeto](#-funcionalidades-do-projeto)
-  - [✔️ Técnicas e tecnologias utilizadas](#️-técnicas-e-tecnologias-utilizadas-1)
-  - [Abrir e rodar o projeto](#abrir-e-rodar-o-projeto)
-  - [📸 Gif](#-gif)
-  - [🎯 Desafio](#-desafio)
+  - [Tecnologias utilizadas](#️tecnologias-utilizadas)
+  - [Técnicas utilizadas](#técnicas-utilizadas)
+  - [Funcionalidades do projeto](#funcionalidades-do-projeto)  
+  - [Benefícios do Projeto](#benefícios-do-projeto)
+  - [Imagens](#imagens)
+  - [Acesso ao projeto](#acesso-ao-projeto)
   - [Desenvolvedores](#desenvolvedores)
-  - [📚 Mais informações do curso](#-mais-informações-do-curso)
-  - [👍 Me siga nas redes sociais](#-me-siga-nas-redes-sociais)
-    - [Feito com 💜 by Thamyres Cavalcante.](#feito-com--by-thamyres-cavalcante)
+  - [Me siga nas redes sociais](#-me-siga-nas-redes-sociais)
+
 
 ## Descrição do projeto 
 
@@ -65,13 +57,13 @@ Projeto de um Sistema de Gerenciamento de Tarefas, desenvolvido junto com o Trei
 
 ## Funcionalidades do projeto
 
-- `Cadastro de Tarefas`: Permite aos usuários criar, editar e excluir tarefas. Para cadastrar uma tarefa, devem ser informados `Título`, `Data entrega`. Todos os campos são obrigatórios. O sistema também deve gravar a data em que a tarefa foi cadastrado no sistema.
+- `Cadastro de Tarefas`: Os usuários podem inserir novas tarefas, especificando detalhes como `Título` e `Data entrega`. Essa funcionalidade fornece uma entrada rápida e fácil para todas as atividades planejadas. O sistema também grava a data em que a tarefa foi cadastrada no sistema.
 
-- `Excluir Tarefas`: 
+- `Excluir Tarefas`: A possibilidade de excluir tarefas oferece flexibilidade aos usuários para remover itens que não são mais relevantes ou necessários. Isso mantém a lista de tarefas organizada e focada nas atividades atuais.
 
-- `Editar Tarefas`: 
+- `Editar Tarefas`: A capacidade de editar tarefas permite aos usuários realizar ajustes ou adicionar informações adicionais conforme necessário. Essa funcionalidade é crucial para manter as informações atualizadas e refletir qualquer mudança nos requisitos ou prazos.
 
-- `Listar de Tarefas`: 
+- `Listar de Tarefas`: A visualização clara e organizada de todas as tarefas é essencial para o gerenciamento eficiente. A funcionalidade de listagem permite que os usuários vejam suas tarefas em uma interface fácil de entender, proporcionando uma visão global das responsabilidades.
 
 
 ## Benefícios do Projeto
@@ -113,7 +105,7 @@ Neste repositório você tem acesso a todo o material desenvolvido.
 
 
 
-## 👍 Me siga nas redes sociais
+## Me siga nas redes sociais
 
 - [Linkedin](https://www.linkedin.com/in/thamyrescavalcante/)
 - [Instagran](https://www.instagram.com/thamyres__cavalcante/)
