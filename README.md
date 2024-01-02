@@ -14,10 +14,8 @@
   - [Tecnologias utilizadas](#️tecnologias-utilizadas) 
   - [Funcionalidades do projeto](#funcionalidades-do-projeto)  
   - [Benefícios do Projeto](#benefícios-do-projeto)
-  - [Imagens](#imagens)
   - [Acesso ao projeto](#acesso-ao-projeto)
   - [Desenvolvedores](#desenvolvedores)
-  - [Me siga nas redes sociais](#-me-siga-nas-redes-sociais)
 
 
 ## Descrição do projeto 
