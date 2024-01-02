@@ -11,8 +11,7 @@
 # Índice 
 
   - [Descrição do projeto](#descrição-do-projeto)
-  - [Tecnologias utilizadas](#️tecnologias-utilizadas)
-  - [Técnicas utilizadas](#técnicas-utilizadas)
+  - [Tecnologias utilizadas](#️tecnologias-utilizadas) 
   - [Funcionalidades do projeto](#funcionalidades-do-projeto)  
   - [Benefícios do Projeto](#benefícios-do-projeto)
   - [Imagens](#imagens)
@@ -25,8 +24,20 @@
 
 <p align="justify">
 Projeto de um Sistema de Gerenciamento de Tarefas, desenvolvido junto com o TreinaWeb. O sistema oferece uma solução para organizar e acompanhar atividades diárias.
-Validação dos campos, Tarefa concluida com a data atual, Desabilitando botões após tarefa concluida, Herança de templates.
+Tarefa concluida com a data atual, Desabilitando botões após tarefa concluida, Herança de templates.
 </p>
+
+- `Tarefa concluida`: Permite ao usuario, ao marcar uma tarefa como concluída, a data de conclusão automática para a tarefa deve ser registrada como a data atual, fornecendo um registro preciso do momento em que a tarefa foi finalizada. Além de permitir uma ordenação por data de entrega.
+<img width="100%" height="200" src="./geral/Ordenado_por_data-entrega.png"></img>
+
+- `Botões Inativos (Editar e Concluir)`: Inativar os botões "Editar" e "Concluir" após a marcação de uma tarefa como concluída impede a realização de ações inconsistentes ou desnecessárias. Isso contribui para a consistência do sistema e evita que os usuários tentem editar ou concluir novamente uma tarefa que já foi finalizada. A inativação dos botões reflete o estado atual da tarefa, proporcionando uma experiência de usuário mais intuitiva e evitando possíveis confusões.
+<img width="100%" height="200" src="./geral/Desabilitar_botoes_apos_concuido.png"></img>
+
+- `Herança de template`: Permite criar um template base com funcionalidades comuns e, em seguida, estender ou especializar esse template para criar novos componentes. Reduz a duplicação de código, uma vez que as partes comuns são definidas no template base e compartilhadas por todas as classes derivadas.
+<img width="100%" height="200" src="./geral/Herança_templates_List-Base.png"></img>
+
+- `Validação de Campos`: Ajuda a garantir a integridade dos dados, evitando a entrada de valores inválidos ou inconsistentes. Isso é crucial para manter a precisão e confiabilidade das informações manipuladas pelo software.
+<img width="100%" height="200" src="./geral/Validação_dos_campos..png"></img>
 
 ## Tecnologias utilizadas
 
@@ -34,17 +45,6 @@ Validação dos campos, Tarefa concluida com a data atual, Desabilitando botões
 <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank"> <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3067767/settings_images/omx3KZGSamzipD0jXUwg_file.jpg" alt="firebase" width="50" height="40"/> </a> 
 <a href="https://maven.apache.org/" target="_blank"> <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_maven_icon_130397.png" alt="firebase" width="40" height="40"/> </a> <a href="https://spring.io/projects/spring-data-jpa/" target="_blank"> <img src="https://devcolibri.com/wp-content/uploads/2017/11/dfdfds.png" alt="firebase" width="40" height="40"/> </a> <a href="https://spring.io/projects/spring-boot/" target="_blank"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5gJvZf4YCHHKfc4X3DsufIko_fRqeXsxCDuefw7QVkQ&s" alt="firebase" width="40" height="40"/> </a> <a href="https://www.h2database.com/html/main.html" target="_blank"> <img src="https://www.h2database.com/html/images/h2-logo-2.png" alt="firebase" width="50" height="40"/> </a>
 
-- ``Java 17``
-- ``VS Code``
-- ``Spring Boot``
-- ``VS Code``
-- ``H2 Database``
-- ``Thymeleaf``
-- ``Data-JPA``
-- ``Maven``
-- ``Spring Web``
-
-## Técnicas utilizadas
 
 - `Java 17`: Utilizando a versão mais recente do Java, o projeto se beneficia das últimas melhorias de desempenho, segurança e funcionalidades da linguagem.
 - `Spring Boot`: O framework Spring Boot proporciona uma arquitetura simplificada e pronta para uso, agilizando o desenvolvimento e facilitando a manutenção do sistema.
@@ -56,15 +56,20 @@ Validação dos campos, Tarefa concluida com a data atual, Desabilitando botões
 - `Spring Web`: A implementação do Spring Web viabiliza o desenvolvimento de endpoints RESTful, proporcionando uma comunicação eficiente entre o frontend e o backend.
 
 
+
 ## Funcionalidades do projeto
 
 - `Cadastro de Tarefas`: Os usuários podem inserir novas tarefas, especificando detalhes como `Título` e `Data entrega`. Essa funcionalidade fornece uma entrada rápida e fácil para todas as atividades planejadas. O sistema também grava a data em que a tarefa foi cadastrada no sistema.
+<img width="100%" height="200" src="./geral/Cadastrar_tarefa.png"></img>
 
 - `Excluir Tarefas`: A possibilidade de excluir tarefas oferece flexibilidade aos usuários para remover itens que não são mais relevantes ou necessários. Isso mantém a lista de tarefas organizada e focada nas atividades atuais.
+<img width="100%" height="300" src="./geral/Excluir_tarefa.png"></img>
 
 - `Editar Tarefas`: A capacidade de editar tarefas permite aos usuários realizar ajustes ou adicionar informações adicionais conforme necessário. Essa funcionalidade é crucial para manter as informações atualizadas e refletir qualquer mudança nos requisitos ou prazos.
+<img width="100%" height="300" src="./geral/Editar_tarefa.png"></img>
 
 - `Listar de Tarefas`: A visualização clara e organizada de todas as tarefas é essencial para o gerenciamento eficiente. A funcionalidade de listagem permite que os usuários vejam suas tarefas em uma interface fácil de entender, proporcionando uma visão global das responsabilidades.
+<img width="100%" height="300" src="./geral/Listar_tarefas.png"></img>
 
 
 ## Benefícios do Projeto
@@ -76,20 +81,6 @@ Validação dos campos, Tarefa concluida com a data atual, Desabilitando botões
 - `Segurança e Confiabilidade`: A integração do Spring Boot e a utilização do H2 Database garantem a segurança e confiabilidade na manipulação e armazenamento dos dados.
 
 - `Facilidade de Extensão`: A estrutura modular do projeto, aliada ao uso do Maven, facilita a adição de novas funcionalidades e a manutenção do sistema ao longo do tempo. 
-
-## Imagens
-Cadastrar uma tarefa
-<img width="100%" height="300" src="./geral/"></img>
-
-Editar uma tarefa
-<img width="100%" height="300" src="./geral/"></img>
-
-Excluir uma tarefa
-<img width="100%" height="300" src="./geral/"></img>
-
-Listar todas as tarefa
-<img width="100%" height="300" src="./geral/"></img>
-
 
 
 ## Acesso ao projeto
