@@ -57,10 +57,12 @@ Projeto de um Sistema de Gerenciamento de Tarefas, desenvolvido junto com o Trei
 - true => Sempre que executar uma operação no banco de dados, as SQL será apresentada no terminal (log)
 
 ``console do H2`` => spring.h2.console.enabled=true
+- true => Ter acesso a uma interface do H2
 
-==> Print de como deve ficar:
+==> Print de como deve ficar as configurações:
 <img width="100%" height="350" src="./geral/H2_database-config.png"></img>
-==> Print do console:
+==> Print do console do H2:
+no navegador: http://localhost:8080/h2-console
 <img width="100%" height="350" src="./geral/H2_database.png"></img>
 
 
