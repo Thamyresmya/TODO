@@ -22,7 +22,6 @@
 
 <p align="justify">
 Projeto de um Sistema de Gerenciamento de Tarefas, desenvolvido junto com o TreinaWeb. O sistema oferece uma solução para organizar e acompanhar atividades diárias.
-Tarefa concluida com a data atual, Desabilitando botões após tarefa concluida, Herança de templates.
 </p>
 
 - `Tarefa concluida`: Permite ao usuario, ao marcar uma tarefa como concluída, a data de conclusão automática para a tarefa deve ser registrada como a data atual, fornecendo um registro preciso do momento em que a tarefa foi finalizada. Além de permitir uma ordenação por data de entrega.
@@ -36,6 +35,11 @@ Tarefa concluida com a data atual, Desabilitando botões após tarefa concluida,
 
 - `Validação de Campos`: Ajuda a garantir a integridade dos dados, evitando a entrada de valores inválidos ou inconsistentes. Isso é crucial para manter a precisão e confiabilidade das informações manipuladas pelo software.
 <img width="100%" height="200" src="./geral/Validação_dos_campos..png"></img>
+
+- `H2 database`: Oferece um banco de dados leve e de alto desempenho. Proporcionando uma solução incorporada que simplifica o desenvolvimento e teste, sem a necessidade de configurações complexas. A integração com o H2 permite armazenar e recuperar dados de forma eficiente, garantindo a persistência e confiabilidade das informações do sistema.
+<img width="100%" height="350" src="./geral/H2_database.png"></img>
+<img width="100%" height="350" src="./geral/H2_database-config.png"></img>
+
 
 ## Tecnologias utilizadas
 
@@ -60,7 +64,7 @@ Tarefa concluida com a data atual, Desabilitando botões após tarefa concluida,
 - `Cadastro de Tarefas`: Os usuários podem inserir novas tarefas, especificando detalhes como `Título` e `Data entrega`. Essa funcionalidade fornece uma entrada rápida e fácil para todas as atividades planejadas. O sistema também grava a data em que a tarefa foi cadastrada no sistema.
 <img width="100%" height="200" src="./geral/Cadastrar_tarefa.png"></img>
 
-- `Excluir Tarefas`: A possibilidade de excluir tarefas oferece flexibilidade aos usuários para remover itens que não são mais relevantes ou necessários. Isso mantém a lista de tarefas organizada e focada nas atividades atuais.
+- `Excluir Tarefas`: A possibilidade de excluir tarefas oferece flexibilidade aos usuários para remover itens que não são mais relevantes ou necessários. Isso mantém a lista de tarefas organizada e focada nas atividades atuais. Além de aparecer uma notificação para confirmar se realmente deseja realizar a exclusão da tarefa, evitando assim um retrabalho.
 <img width="100%" height="300" src="./geral/Excluir_tarefa.png"></img>
 
 - `Editar Tarefas`: A capacidade de editar tarefas permite aos usuários realizar ajustes ou adicionar informações adicionais conforme necessário. Essa funcionalidade é crucial para manter as informações atualizadas e refletir qualquer mudança nos requisitos ou prazos.
