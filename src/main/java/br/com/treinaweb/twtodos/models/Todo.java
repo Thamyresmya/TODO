@@ -11,6 +11,10 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.validation.constraints.FutureOrPresent;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 
 @Entity
 public class Todo {
@@ -19,12 +23,16 @@ public class Todo {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Size(min = 3, max = 100)
+    @NotBlank
     @Column(length = 100, nullable = false)
     private String title;
 
     @Column(nullable = false)
     private LocalDateTime createdAt;
 
+    @NotNull
+    @FutureOrPresent
     @Column(nullable = false)
     @DateTimeFormat(iso = ISO.DATE)
     private LocalDate deadline;
@@ -35,6 +43,12 @@ public class Todo {
     // Construtor
     public Todo() {
         this.createdAt = LocalDateTime.now();
+    }
+
+    // Metodos
+    // Setando data de conclusão, com a data do dia.
+    public void markHasFinished() {
+        this.fineshedAt = LocalDate.now();
     }
 
     // Getters and Setters

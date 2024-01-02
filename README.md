@@ -25,6 +25,7 @@
 
 <p align="justify">
 Projeto de um Sistema de Gerenciamento de Tarefas, desenvolvido junto com o TreinaWeb. O sistema oferece uma solução para organizar e acompanhar atividades diárias.
+Validação dos campos, Tarefa concluida com a data atual, Desabilitando botões após tarefa concluida, Herança de templates.
 </p>
 
 ## Tecnologias utilizadas
