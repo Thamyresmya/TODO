@@ -36,9 +36,33 @@ Projeto de um Sistema de Gerenciamento de Tarefas, desenvolvido junto com o Trei
 - `Validação de Campos`: Ajuda a garantir a integridade dos dados, evitando a entrada de valores inválidos ou inconsistentes. Isso é crucial para manter a precisão e confiabilidade das informações manipuladas pelo software.
 <img width="100%" height="200" src="./geral/Validação_dos_campos..png"></img>
 
-- `H2 database`: Oferece um banco de dados leve e de alto desempenho. Proporcionando uma solução incorporada que simplifica o desenvolvimento e teste, sem a necessidade de configurações complexas. A integração com o H2 permite armazenar e recuperar dados de forma eficiente, garantindo a persistência e confiabilidade das informações do sistema.
-<img width="100%" height="350" src="./geral/H2_database.png"></img>
+- `H2 database - Configurações`: 
+
+``conexão com Banco de Dados`` => spring.datasource.url=jdbc:h2:file:./h2-database <br>
+  - tipo de banco => *jdbc:h2*
+  - tipo que o h2 vai funcionar será em arquivos => *:file*
+  - local do arquivo gerado (raiz do projeto) => *./h2-database*
+
+``usuario para acessar o banco`` => spring.datasource.username=sa
+  - padrão => *sa*
+
+``senha para acessar o banco`` => spring.datasource.password=
+  - vazio pois ainda estar em desenvolvimento
+
+``Configurações para a JPA`` => spring.jpa.hibernate.ddl-auto=update
+  - estrategia que o hibernate, implementação da JPA, vai utilizar para criar as tabelas no banco de dados.
+  - update => verifica as entidades e atualiza o banco de acordo com as entidades
+
+``exibição no terminal`` => spring.jpa.show-sql=true
+- true => Sempre que executar uma operação no banco de dados, as SQL será apresentada no terminal (log)
+
+``console do H2`` => spring.h2.console.enabled=true
+
+==> Print de como deve ficar:
 <img width="100%" height="350" src="./geral/H2_database-config.png"></img>
+==> Print do console:
+<img width="100%" height="350" src="./geral/H2_database.png"></img>
+
 
 
 ## Tecnologias utilizadas
@@ -62,7 +86,7 @@ Projeto de um Sistema de Gerenciamento de Tarefas, desenvolvido junto com o Trei
 ## Funcionalidades do projeto
 
 - `Cadastro de Tarefas`: Os usuários podem inserir novas tarefas, especificando detalhes como `Título` e `Data entrega`. Essa funcionalidade fornece uma entrada rápida e fácil para todas as atividades planejadas. O sistema também grava a data em que a tarefa foi cadastrada no sistema.
-<img width="100%" height="200" src="./geral/Cadastrar_tarefa.png"></img>
+<img width="100%" height="250" src="./geral/Cadastrar_tarefa.png"></img>
 
 - `Excluir Tarefas`: A possibilidade de excluir tarefas oferece flexibilidade aos usuários para remover itens que não são mais relevantes ou necessários. Isso mantém a lista de tarefas organizada e focada nas atividades atuais. Além de aparecer uma notificação para confirmar se realmente deseja realizar a exclusão da tarefa, evitando assim um retrabalho.
 <img width="100%" height="300" src="./geral/Excluir_tarefa.png"></img>
