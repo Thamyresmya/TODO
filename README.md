@@ -20,16 +20,16 @@ Projeto de um Sistema de Gerenciamento de Tarefas, desenvolvido junto com o Trei
 </p>
 
 - `Tarefa concluida`: Permite ao usuario, ao marcar uma tarefa como concluída, a data de conclusão automática para a tarefa deve ser registrada como a data atual, fornecendo um registro preciso do momento em que a tarefa foi finalizada. Além de permitir uma ordenação por data de entrega.
-<img width="100%" height="200" src="./geral/Ordenado_por_data-entrega.png"></img>
+<img width="100%" height="250" src="./geral/Ordenado_por_data-entrega.png"></img>
 
 - `Botões Inativos (Editar e Concluir)`: Inativar os botões "Editar" e "Concluir" após a marcação de uma tarefa como concluída impede a realização de ações inconsistentes ou desnecessárias. Isso contribui para a consistência do sistema e evita que os usuários tentem editar ou concluir novamente uma tarefa que já foi finalizada. A inativação dos botões reflete o estado atual da tarefa, proporcionando uma experiência de usuário mais intuitiva e evitando possíveis confusões.
-<img width="100%" height="200" src="./geral/Desabilitar_botoes_apos_concuido.png"></img>
+<img width="100%" height="250" src="./geral/Desabilitar_botoes_apos_concuido.png"></img>
 
 - `Herança de template`: Permite criar um template base com funcionalidades comuns e, em seguida, estender ou especializar esse template para criar novos componentes. Reduz a duplicação de código, uma vez que as partes comuns são definidas no template base e compartilhadas por todas as classes derivadas.
-<img width="100%" height="200" src="./geral/Herança_templates_List-Base.png"></img>
+<img width="100%" height="250" src="./geral/Herança_templates_List-Base.png"></img>
 
 - `Validação de Campos`: Ajuda a garantir a integridade dos dados, evitando a entrada de valores inválidos ou inconsistentes. Isso é crucial para manter a precisão e confiabilidade das informações manipuladas pelo software.
-<img width="100%" height="200" src="./geral/Validação_dos_campos..png"></img>
+<img width="100%" height="250" src="./geral/Validação_dos_campos..png"></img>
 
 - `H2 database - Configurações`: 
 
@@ -111,7 +111,7 @@ no navegador: http://localhost:8080/h2-console
 
 Neste repositório você tem acesso a todo o material desenvolvido.
 
-<img width="100%" height="350" src="./geral/Todo-Lista_de_Tarefas.gif"></img>
+<img width="100%" height="400" src="./geral/Todo-Lista_de_Tarefas.gif"></img>
 
 
 ## Desenvolvedores
