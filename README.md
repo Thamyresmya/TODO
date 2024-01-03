@@ -1,12 +1,7 @@
 
 ![](geral//Capa.png)
 
-
-# Projeto TODO
-
-<h1 align="center"> 
-🚧 Projeto em construção 🚧
-</h1>
+# Projeto TODO - Lista de Tarefas
 
 # Índice 
 
@@ -84,7 +79,6 @@ no navegador: http://localhost:8080/h2-console
 - `Spring Web`: A implementação do Spring Web viabiliza o desenvolvimento de endpoints RESTful, proporcionando uma comunicação eficiente entre o frontend e o backend.
 
 
-
 ## Funcionalidades do projeto
 
 - `Cadastro de Tarefas`: Os usuários podem inserir novas tarefas, especificando detalhes como `Título` e `Data entrega`. Essa funcionalidade fornece uma entrada rápida e fácil para todas as atividades planejadas. O sistema também grava a data em que a tarefa foi cadastrada no sistema.
@@ -116,6 +110,8 @@ no navegador: http://localhost:8080/h2-console
 É possível acessar o projeto através do [Link](https://github.com/Thamyresmya/TODO)
 
 Neste repositório você tem acesso a todo o material desenvolvido.
+
+<img width="100%" height="350" src="./geral/Todo-Lista_de_Tarefas.gif"></img>
 
 
 ## Desenvolvedores
